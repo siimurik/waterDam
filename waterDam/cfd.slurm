@@ -1,0 +1,3 @@
+setFields
+checkMesh
+interFoam
