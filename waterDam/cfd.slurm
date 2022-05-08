@@ -12,7 +12,8 @@ source /share/apps/HPC2/OpenFOAM/OpenFOAM-v1912/etc/bashrc
 tar -xvf finalMesh.tar.xz
 rm finalMesh.tar.xz
 ideasUnvToFoam finalMesh.unv
-cp boundary /constant/polyMesh
-setFields
-checkMesh
-interFoam
+tree 
+cp boundary constant/polyMesh/
+setFields 
+checkMesh 
+interFoam 
